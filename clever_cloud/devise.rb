@@ -4,6 +4,7 @@ run 'rm Gemfile'
 file 'Gemfile', <<-RUBY
 source 'https://rubygems.org'
 ruby '#{RUBY_VERSION}'
+aaa
 
 #{"gem 'bootsnap', require: false" if Rails.version >= "5.2"}
 gem 'devise'
