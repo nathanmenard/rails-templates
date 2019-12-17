@@ -1,5 +1,3 @@
-run 'pgrep spring'
-
 # GEMFILE
 ########################################
 run 'rm Gemfile'
